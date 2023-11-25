@@ -14,8 +14,17 @@
   justify-content: space-between;
   align-items: center;
 }
+.page-navigation {
+  display: flex;
+}
 .navigation-logo {
   margin-right: 87px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  gap: 25px;
 }
 .menu-social-icon {
   display: flex;
@@ -34,6 +43,18 @@
   line-height: 1.42;
   text-transform: uppercase;
   color: #fcf9f9;
+}
+.social-icon {
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background: rgba(252, 249, 249, 0.1);
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  border-radius: 15px;
+  border: 1px solid var(--yellow, #ecd979);
 }
 /*===========BURGER=========*/
 @media screen and (max-width: 1279px) {
