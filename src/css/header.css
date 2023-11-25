@@ -1,0 +1,140 @@
+.page-header {
+  background: #1c2225;
+}
+.container {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+.container-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation {
+}
+/*===========BURGER=========*/
+@media screen and (max-width: 1279px) {
+  .menu {
+    display: none;
+  }
+  .burger-btn {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+  }
+  .burger-btn-icon {
+    fill: ECD979;
+  }
+}
+/*=========/BURGER==========*/
+/* ===============  MOBILE MENU STYLES=============== */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999999;
+  background-color: #fff;
+  transform: translateX(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0%);
+}
+.mobile-menu-container {
+  position: relative;
+  padding: 72px 16px 40px 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ecd979;
+}
+.menu-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-close-btn-icon {
+  fill: none;
+  stroke: #1c2225;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mob-list-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.mob-nav {
+}
+.mob-nav-list-link.studio-mob {
+  color: #404bbf;
+}
+.mob-nav-list-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #1c2225;
+}
+.mob-contact-list {
+  border-radius: 15px;
+  border: 1px solid rgba(28, 34, 37, 0.1);
+}
+.mob-contacts-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.mob-contacts {
+  color: #434455;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.mob-contacts-link.phone {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+  text-transform: uppercase;
+  color: #1c2225;
+}
+.mob-contacts-list {
+  margin-bottom: 48px;
+}
+/*===========/MOBILE MENU STYLES=========*/
+
+.menu-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #fcf9f9;
+}
+
+@media screen and (min-width: 1280px) {
+  .burger-btn {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+}
