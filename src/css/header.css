@@ -45,8 +45,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* width: 28px;
-  height: 28px; */
 }
 
 .menu-adress-header {
@@ -100,7 +98,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 274px; /*width: 100%*/
   height: 100%;
   z-index: 999999999;
   background-color: #fff;
@@ -114,12 +112,18 @@
 }
 .mobile-menu-container {
   position: relative;
-  padding: 72px 16px 40px 16px;
+  padding: 20px 20px 20px;
+  width: 274px;
   height: 100%;
-  display: flex;
+
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  background-color: #ecd979;
+  justify-content: space-between; */
+  background: #ecd979;
+}
+.mob-nav-list {
+  margin-top: 244px;
+  text-align: right;
 }
 .menu-close-btn {
   position: absolute;
@@ -143,13 +147,21 @@
   stroke: #1c2225;
   transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.background-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: -51px;
+  left: 0;
+
+  background-image: url(../images/bg-ornament-mob-menu.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 .mob-list-item:not(:last-child) {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .mob-nav {
-}
-.mob-nav-list-link.studio-mob {
-  color: #404bbf;
 }
 .mob-nav-list-link {
   font-size: 14px;
@@ -158,33 +170,21 @@
   text-transform: uppercase;
   color: #1c2225;
 }
-.mob-contact-list {
+.mob-contacts {
+  width: 160px;
+  height: 38px;
+  padding: 12px 20px;
   border-radius: 15px;
   border: 1px solid rgba(28, 34, 37, 0.1);
 }
-.mob-contacts-item:not(:last-child) {
-  margin-bottom: 24px;
-}
-.mob-contacts {
-  color: #434455;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
 .mob-contacts-link.phone {
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.16;
   text-transform: uppercase;
   color: #1c2225;
 }
-.mob-contacts-list {
-  margin-bottom: 48px;
-}
+
 /*===========/MOBILE MENU STYLES=========*/
 
 .menu-link {
