@@ -34,19 +34,19 @@
 }
 .social-icon {
   display: flex;
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background: rgba(252, 249, 249, 0.1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon-item {
-  fill: #FCF9F91A
+  fill: #f4f4fd;
   display: flex;
-  border-radius: 15px;
-  border: 1px solid rgba(252, 249, 249, 0.10);
-  
-background-color: rgba(252, 249, 249, 0.10);
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* width: 28px;
+  height: 28px; */
 }
 
 .menu-adress-header {
@@ -62,12 +62,6 @@ background-color: rgba(252, 249, 249, 0.10);
   line-height: 1.42;
   text-transform: uppercase;
   color: #fcf9f9;
-}
-.social-icon {
-  padding: 8px;
-  border-radius: 15px;
-  border: 1px solid rgba(252, 249, 249, 0.1);
-  background: rgba(252, 249, 249, 0.1);
 }
 
 .social-icon:hover,
