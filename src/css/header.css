@@ -1,11 +1,8 @@
 .page-header {
   background-color: #1c2225;
-}
-.container {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  margin: 0 auto;
 }
 .container-style {
   display: flex;
@@ -17,9 +14,33 @@
   justify-content: space-between;
   align-items: center;
 }
+.navigation-logo {
+  margin-right: 87px;
+}
+.menu-social-icon {
+  display: flex;
+  gap: 12px;
+}
+.menu-adress-header {
+  margin-right: 20px;
+  padding: 14px 28px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+}
+.contacts-link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42;
+  text-transform: uppercase;
+  color: #fcf9f9;
+}
 /*===========BURGER=========*/
 @media screen and (max-width: 1279px) {
   .menu {
+    display: none;
+  }
+  .menu-adress-header {
     display: none;
   }
   .burger-btn {
@@ -33,6 +54,13 @@
   }
 }
 /*=========/BURGER==========*/
+/* ===============  MOBILE STYLES=============== */
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
 /* ===============  MOBILE MENU STYLES=============== */
 .mobile-menu {
   position: fixed;
@@ -132,12 +160,25 @@
   text-transform: uppercase;
   color: #fcf9f9;
 }
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
 
 @media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
   .burger-btn {
     display: none;
   }
   .mobile-menu {
     display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
   }
 }
