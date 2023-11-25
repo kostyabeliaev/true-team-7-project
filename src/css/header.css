@@ -13,6 +13,9 @@
   justify-content: space-between;
 }
 .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 /*===========BURGER=========*/
 @media screen and (max-width: 1279px) {
