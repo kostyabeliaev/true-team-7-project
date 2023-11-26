@@ -9,7 +9,11 @@
   padding-right: 20px;
   margin: 0 auto;
 }
-
+.contact-header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .container-style {
   display: flex;
   align-items: center;
@@ -222,6 +226,9 @@
   .menu-link:focus {
     color: #ecd979;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .menu-adress-header {
+    margin-right: 20px;
   }
   .contacts-link {
     font-size: 14px;
