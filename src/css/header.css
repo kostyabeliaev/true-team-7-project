@@ -25,6 +25,7 @@
   display: flex;
   gap: 12px;
   justify-content: center;
+  margin-right: 20px;
 }
 .social-icon {
   display: flex;
@@ -62,7 +63,7 @@
 }
 /*===========BURGER=========*/
 @media screen and (max-width: 1279px) {
-  .menu {
+  .menu-header-item {
     display: none;
   }
   .menu-adress-header {
@@ -114,6 +115,15 @@
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+
+@media screen and (min-resolution: 192dpi) and (min-width: 320px),
+  screen and (min-resolution: 2dppi) and (min-width: 320px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
+  .mobile-menu-container {
+    background-image: url(../images/bg-ornament-mob-menu@2x.png);
+  }
+}
+
 .mob-nav-list {
   margin-top: 244px;
   text-align: right;
@@ -190,6 +200,14 @@
     background-repeat: no-repeat;
     background-position: center bottom;
   }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppi) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .mobile-menu-container {
+      background-image: url(../images/bg-ornament-tab-menu@2x.png);
+    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -206,14 +224,15 @@
   }
   .navigation {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .logo {
     margin-right: 60px;
   }
-  .menu {
+  .menu-header-item {
     display: flex;
-    align-items: center;
-    gap: 25px;
+    column-gap: 25px;
   }
   .menu-link {
     font-size: 14px;
