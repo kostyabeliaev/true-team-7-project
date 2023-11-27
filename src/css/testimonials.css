@@ -1,6 +1,7 @@
       .cont-flex {
       display: flex;
       flex-direction: column;
+      background: #1c2225;
     }
    
      img {
