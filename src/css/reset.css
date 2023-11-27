@@ -13,9 +13,10 @@ p:last-child {
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
 }
 
 a {
@@ -23,12 +24,8 @@ a {
     text-decoration: none;
 }
 
-button {
-    cursor: pointer;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+.logo,
+.nav-list-link,
+.contacts-link {
+  text-decoration: none;
 }
