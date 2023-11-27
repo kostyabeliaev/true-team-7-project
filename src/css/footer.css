@@ -26,9 +26,14 @@
 
     .footer-menu {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        gap: 40px 25px;
-        padding-bottom: 40px;
+        gap: 25px;
+        padding-bottom: 25px;
+    }
+
+    .footer-menu-item {
+        width: calc((100% - 25px) / 2);
     }
 
    .footer-menu-item-link {
@@ -47,9 +52,9 @@
    }
 
    .footer-paragraph {
-    width: 295px;
         height: 216px;
         padding-bottom: 80px;
+        padding-right: 20px;
         font-size: 44px;
         font-weight: 400;
         letter-spacing: -0.03em;
@@ -85,12 +90,9 @@
 
     .footer-menu {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         gap: 40px 25px;
-    }
-
-    .footer-menu {
-        display: flex;
         align-items: center;
         margin: 0 auto;
         gap: 25px;
@@ -186,3 +188,4 @@
 
 
 }
+
