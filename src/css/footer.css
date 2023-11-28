@@ -14,7 +14,6 @@
         background-image: url(/images/mobile/ornaments/mobile-footer-ornament.png);
         background-repeat: no-repeat;
         background-position: right bottom;
-        background-size: 260px 408px;
     }
 
     .section {
@@ -75,6 +74,12 @@
 /* ============== TABLET STYLES ============== */
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .page-footer {
+        background-image: url(/images/tablet/ornaments/tablet-footer-ornament.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
     .container {
         width: 768px;
     }
@@ -125,9 +130,25 @@
        }
 }
 
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .page-footer {
+            background-image: url(/images/tablet/ornaments/tablet-footer-ornament@2x.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
+    }
+
 /* ============== DESKTOP STYLES ============== */
 
 @media screen and (min-width: 1280px) {
+    .page-footer {
+        background-image: url(/images/desctop/);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+    
     .container {
         width: 1280px;
     }
@@ -180,6 +201,8 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .page-footer {
-        background-image: url(/images/mobile/ornaments/mobile-footer-ornament@2x.png);
+        background-image: url(/images/de);
+        background-repeat: no-repeat;
+        background-position: right bottom;
     }
 }
