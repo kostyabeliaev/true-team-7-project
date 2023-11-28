@@ -21,12 +21,12 @@
   color: #fcf9f9;
 }
 
-.first-list-item {
+.rewiev-list-item.first {
   display: flex;
 }
 
-.second-list-item,
-.third-list-item {
+.rewiev-list-item.second,
+.rewiev-list-item.third {
   display: none;
 }
 
@@ -68,15 +68,8 @@
   line-height: normal;
   color: rgba(252, 249, 249, 0.4);
 }
-}
-/************TABLET STYLES************/
 
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
+/************TABLET STYLES************/
 
 .rewiev-title {
   font-size: 44px;
@@ -84,7 +77,7 @@
   line-height: 1.45;
 }
 
-.second-list-item {
+.rewiev-list-item.second {
   display: flex;
 }
 
@@ -106,17 +99,10 @@
   font-weight: 400;
   line-height: normal;
 }
-}
+
 /**************DESCTOP STYLES**************/
 
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-.third-list-item {
+.rewiev-list-item.third {
   display: flex;
 }
 
@@ -130,5 +116,4 @@
 
 .rewiev {
   width: 307px;
-}
 }
