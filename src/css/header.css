@@ -2,13 +2,13 @@
   background-color: #1c2225;
   margin-bottom: 60px;
 }
-.container {
+/* .container {
   width: 375px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
   margin: 0 auto;
-}
+} */
 .contact-header-menu {
   display: flex;
   align-items: center;
