@@ -1,0 +1,309 @@
+.page-header {
+  background-color: #1c2225;
+  margin-bottom: 60px;
+}
+
+.contact-header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.contact-icon {
+  list-style-type: none;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.social-icon {
+  display: flex;
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background: rgba(252, 249, 249, 0.1);
+}
+
+.social-icon-item {
+  fill: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts-link {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42;
+  text-transform: uppercase;
+  color: #fcf9f9;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  border-radius: 15px;
+  border: 1px solid #ecd979;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-contact {
+  display: flex;
+  justify-content: right;
+  gap: 12px;
+}
+
+/*===========BURGER=========*/
+@media screen and (max-width: 1279px) {
+  .menu-header-item {
+    display: none;
+  }
+
+  .menu-adress-header {
+    display: none;
+  }
+
+  .burger-btn {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+  }
+
+  .burger-btn-icon {
+    fill: transparent;
+  }
+}
+
+/*=========/BURGER==========*/
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .container {
+    min-width: 320px;
+  }
+}
+
+/* ===============  MOBILE STYLES=============== */
+@media screen and (min-width: 375px) {
+  .container {
+    min-width: 375px;
+  }
+}
+
+/* ===============  MOBILE MENU STYLES=============== */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999999;
+  background-color: #fff;
+  transform: translateX(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0%);
+}
+
+.mobile-menu-container {
+  position: relative;
+  padding: 20px 20px 20px;
+  width: 274px;
+  height: 100%;
+  background: #ecd979;
+  background-image: url(../images/mobile/ornaments/mobile-menu-ornament.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 320px),
+screen and (min-resolution: 2dppi) and (min-width: 320px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
+  .mobile-menu-container {
+    background-image: url(../images/mobile/ornaments/mobile-menu-ornament@2x.png);
+  }
+}
+
+.mob-nav-list {
+  margin-top: 244px;
+  text-align: right;
+}
+
+.menu-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-close-btn-icon {
+  fill: none;
+  stroke: #1c2225;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.mob-nav-list-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #1c2225;
+}
+
+.mob-contacts {
+  margin-top: 12px;
+}
+
+.mob-contacts-link {
+  width: 160px;
+  height: 38px;
+  padding: 12px 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(28, 34, 37, 0.1);
+}
+
+.mob-contacts-link.phone {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.16;
+  text-transform: uppercase;
+  color: #1c2225;
+}
+
+/*===========/MOBILE MENU STYLES=========*/
+
+.menu-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #fcf9f9;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .mobile-menu-container {
+    width: 380px;
+    background-image: url(../images/tablet/ornaments/tablet-menu-ornament.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppi) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .mobile-menu-container {
+      background-image: url(../images/tablet/ornaments/tablet-menu-ornament@2x.png);
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .burger-btn {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    margin-right: 60px;
+  }
+
+  .menu-header-item {
+    display: flex;
+    column-gap: 25px;
+  }
+
+  .menu-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    text-transform: uppercase;
+    color: #fcf9f9;
+  }
+
+  .menu-link:hover,
+  .menu-link:focus {
+    color: #ecd979;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .menu-adress-header {
+    margin-right: 20px;
+  }
+
+  .contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+    text-transform: uppercase;
+    color: #fcf9f9;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    padding: 14px 28px;
+  }
+
+  .contacts-link:hover,
+  .contacts-link:focus {
+    border-radius: 15px;
+    border: 1px solid #ecd979;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
