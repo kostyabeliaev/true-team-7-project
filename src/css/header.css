@@ -1,6 +1,8 @@
 .page-header {
+  background-color: #1c2225;
   margin-bottom: 60px;
 }
+
 .contact-header-menu {
   display: flex;
   align-items: center;
@@ -22,7 +24,7 @@
   display: flex;
   gap: 12px;
   justify-content: center;
-  margin-right: 12px;
+  margin-right: 20px;
 }
 
 .social-icon {
@@ -88,20 +90,13 @@
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .container {
     min-width: 320px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    margin: 0 auto;
   }
 }
 
 /* ===============  MOBILE STYLES=============== */
 @media screen and (min-width: 375px) {
   .container {
-    width: 375px;
-  }
-  .contact-icon {
-    margin-right: 20px;
+    min-width: 375px;
   }
 }
 
@@ -129,7 +124,6 @@
   padding: 20px 20px 20px;
   width: 274px;
   height: 100%;
-  margin: 0 auto;
   background: #ecd979;
   background-image: url(../images/mobile/ornaments/mobile-menu-ornament.png);
   background-repeat: no-repeat;
