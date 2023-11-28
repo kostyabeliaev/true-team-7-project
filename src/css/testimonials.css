@@ -1,13 +1,10 @@
-.container {
-  background: #1c2225;
-}
-
 .cont-flex {
-  display: flex;
-  flex-direction: column;
-}
-
-.img-container {
+      display: flex;
+      flex-direction: column;
+      background: #1c2225;
+    }
+   
+     img {
   margin-top: -24px;
   border-radius: 64px;
   box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
