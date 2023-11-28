@@ -4,9 +4,6 @@
 
 .page-footer {
     background-color: #1C2225;
-}
-
-.page-footer {
     width: 100%;
 }
 
@@ -51,7 +48,7 @@
     color: #ECD979;
    }
 
-   .footer-paragraph {
+   .footer-slogan {
         height: 216px;
         padding-bottom: 80px;
         padding-right: 20px;
@@ -62,14 +59,14 @@
         color: #FCF9F9;
    }
 
-   .footer-paragraph-span {
+   .footer-span-ukrainian {
     color: #ECD979;
    }
     
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .about-section {
+        .page-footer {
             background-image: url(/images/mobile/ornaments/mobile-footer-ornament@2x.png);
         }
     }
@@ -112,22 +109,18 @@
     color: #ECD979;
    }
 
-   .footer-paragraph {
+   .footer-slogan {
         max-width: 521px;
         height: 216px;
-        padding-bottom: 40px;
         font-size: 44px;
         font-weight: 400;
         letter-spacing: -0.03m;
         line-height: 1.22; 
         color: #FCF9F9;
-   }
-
-    .footer-paragraph {
         padding-bottom: 80px;
     }
 
-    .footer-paragraph-span {
+    .footer-span-ukrainian {
         color: #ECD979;
        }
 }
@@ -166,10 +159,11 @@
     color: #ECD979;
    }
    
-   .footer-paragraph {
+   .footer-slogan {
         max-width: 754px;
         padding-bottom: 40px;
         padding-left: 100px;
+        padding-right: 426px;
         font-size: 44px;
         font-weight: 400;
         letter-spacing: -0.03m;
@@ -177,7 +171,7 @@
         color: #FCF9F9;
    }
 
-    .footer-paragraph-span {
+    .footer-span-ukrainian {
         color: #ECD979;
        }
 
