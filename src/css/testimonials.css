@@ -1,5 +1,6 @@
+@media (min-width: 320px) and (max-width: 375px) {
 .container {
-  background: #1c2225;
+  max-width: 375px;
 }
 
 .cont-flex {
@@ -24,12 +25,12 @@
   color: #fcf9f9;
 }
 
-.rewiev-list-item.first {
+.first-list-item {
   display: flex;
 }
 
-.rewiev-list-item.second,
-.rewiev-list-item.third {
+.second-list-item,
+.third-list-item {
   display: none;
 }
 
@@ -71,8 +72,15 @@
   line-height: normal;
   color: rgba(252, 249, 249, 0.4);
 }
-
+}
 /************TABLET STYLES************/
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
 .rewiev-title {
   font-size: 44px;
@@ -80,7 +88,7 @@
   line-height: 1.45;
 }
 
-.rewiev-list-item.second {
+.second-list-item {
   display: flex;
 }
 
@@ -102,10 +110,17 @@
   font-weight: 400;
   line-height: normal;
 }
-
+}
 /**************DESCTOP STYLES**************/
 
-.rewiev-list-item.third {
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+.third-list-item {
   display: flex;
 }
 
@@ -119,4 +134,5 @@
 
 .rewiev {
   width: 307px;
+}
 }
