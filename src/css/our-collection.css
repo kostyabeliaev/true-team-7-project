@@ -10,7 +10,6 @@
 }
 
 .collection-section {
-    background-color: #1C2225;
     background-image: url(../images/mobile/ornaments/mobile-collection-ornament.png);
     background-repeat: no-repeat;
     background-position: left 316px;
@@ -102,3 +101,92 @@ screen and (min-device-pixel-ratio: 2) {
 /* /mobile-collection-styles */
 
 /* tabtel-collection-styles */
+@media screen and (min-width: 768px) {
+
+    .collection-section {
+        background-image: url(../images/tablet/ornaments/tablet-collection-ornament.png);
+        background-repeat: no-repeat;
+        background-position: left 271px;
+        background-size: 114px 300px;
+    }
+
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+
+        .collection-section {
+            background-image: url(../images/tablet/ornaments/tablet-collection-ornament@2x.png);
+        }
+    }
+
+    .collection-container {
+        max-width: 768px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .collection-list {
+        justify-content: center;
+    }
+
+    .collection-list-item {
+        width: 342px;
+    }
+
+    .collection-section-title {
+        font-size: 44px;
+        line-height: 1.45;
+        letter-spacing: -0.03em;
+    }
+
+    .collection-item-title {
+        font-size: 18px;
+        line-height: 1;
+        letter-spacing: 0.05em;
+    }
+
+    .collection-item-cost {
+        font-size: 18px;
+        line-height: 1;
+        letter-spacing: 0.05em;
+    }
+
+}
+
+/* /tabtel-collection-styles */
+
+/* desktop-collection-styles */
+
+
+@media screen and (min-width: 1280px) {
+
+    .collection-section {
+        background-image: url(../images/desctop/ornaments/desctop-collection-ornament.png);
+        background-repeat: no-repeat;
+        background-position: left 291px;
+        background-size: 169px 300px;
+    }
+
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+
+        .collection-section {
+            background-image: url(../images/desctop/ornaments/desctop-collection-ornament@2x.png);
+        }
+    }
+
+    .collection-container {
+        max-width: 1280px;
+        padding-top: 70px;
+        padding-bottom: 150px;
+    }
+
+    .collection-list-item {
+        width: 347px;
+    }
+}
+
+
+
+/* /desktop-collection-styles */
