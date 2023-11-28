@@ -79,7 +79,7 @@
   }
 }
 /*=========/BURGER==========*/
-@media screen (min-width: 320px) and (max-width: 374px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
   .container {
     min-width: 320px;
   }
