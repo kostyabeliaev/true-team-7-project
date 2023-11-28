@@ -81,14 +81,13 @@
 /*=========/BURGER==========*/
 @media screen (min-width: 320px) and (max-width: 374px) {
   .container {
-    width: 320px;
+    min-width: 320px;
   }
 }
 /* ===============  MOBILE STYLES=============== */
 @media screen and (min-width: 375px) {
   .container {
-    width: 375px;
-    margin: 0 auto;
+    min-width: 375px;
   }
 }
 
@@ -196,7 +195,7 @@
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    min-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -219,7 +218,7 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    min-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -275,6 +274,6 @@
 }
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1440px;
+    min-width: 1440px;
   }
 }
