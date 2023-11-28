@@ -2,6 +2,7 @@
   background-color: #1c2225;
   margin-bottom: 60px;
 }
+
 .container {
   width: 320px;
   padding-top: 20px;
@@ -80,6 +81,7 @@
   }
 }
 /*=========/BURGER==========*/
+
 /* ===============  MOBILE STYLES=============== */
 @media screen and (min-width: 375px) {
   .container {
@@ -175,6 +177,7 @@
 .mob-contacts-link.phone {
   font-size: 12px;
   font-weight: 400;
+  font-style: normal;
   line-height: 1.16;
   text-transform: uppercase;
   color: #1c2225;
