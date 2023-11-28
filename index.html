@@ -22,7 +22,7 @@
     />
     <!-- Our stylesheet -->
     
-    <link rel="stylesheet" href="/true-team-7-project/assets/index-24dcd260.css">
+    <link rel="stylesheet" href="/true-team-7-project/assets/index-aec077d6.css">
   </head>
 
   <body>
@@ -130,7 +130,49 @@
 <script src="../js/mobile-menu.js"></script>
 
     <main>
-      
+      <section class="hero">
+    <div class="container hero-container">
+        <div class="hero-header">
+            <h1 class="hero-title">Reviving the traditional <span class="hero-span-ukrainian">Ukrainian</span> artistry
+                in
+                every
+                stitch.
+            </h1>
+            <a href="#your-order" class="hero-btn">Order
+                <svg class="hero-icon-btn" width="26" height="16">
+                    <use href="../images/icons.svg#icon-button-pointer"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="hero-handmade">
+            <svg class="hero-handmade-svg" width="52" height="51">
+                <use href="../images/icons.svg#icon-star"></use>
+            </svg>
+            <p class="hero-handmade-text">all embroidery is made by hand</p>
+        </div>
+        <div class="hero-picture">
+            <picture>
+                <source srcset="../images/desctop/desctop-girl.jpg 1x, ../images/desctop/desctop-girl@2x.jpg 2x"
+                    media="(min-width: 1080px)">
+                <source srcset="../images/tablet/tablet-girl.jpg 1x, ../images/tablet/tablet-girl@2x.jpg 2x"
+                    media="(min-width: 768px)">
+                <source srcset="../images/mobile/mobile-girl.jpg 1x, ../images/mobile/mobile-girl@2x.jpg 2x"
+                    media="(max-width: 767px)">
+                <img src="../images/desctop/desctop-girl.jpg" alt="girl" width="413" height="575" class="hero-img" />
+            </picture>
+            <picture>
+                <source srcset="../images/desctop/desctop-vyshyvanka.jpg 1x, ../images/desctop/desctop-vyshyvanka@2x.jpg 2x"
+                    media="(min-width: 1080px)">
+                <source srcset="../images/tablet/tablet-vyshyvanka.jpg 1x, ../images/tablet/tablet-vyshyvanka@2x.jpg 2x"
+                    media="(min-width: 768px)">
+                <source srcset="../images/tablet/tablet-vyshyvanka.jpg 1x, ../images/tablet/tablet-vyshyvanka@2x.jpg 2x"
+                    media="(max-width: 767px)">
+                <img src="../images/desctop/desctop-vyshyvanka.jpg" alt="ukraine" width="157" height="191"
+                    class="hero-img-ukraine">
+            </picture>
+        </div>
+    </div>
+</section>
       <section class="about-section" id="about-us">
     <div class="about-container">
         <div class="about-box">
@@ -299,7 +341,53 @@
   </div>
 </section>
 
-      
+      <div class="pre-order">
+</div>
+
+<section class="order-mod" id="your-order">
+    <div class="order container">
+
+        <div class="modal-order">
+            <h3 class="modal-title">Your order<span> is our priority: Personalized approach and quality of
+                    service</span>
+            </h3>
+            <form class="modal-form">
+                <div class="modal-field">
+                    <label for="order-name" class="order-label">
+                        <input type="text" name="order-name" pattern="[A-Za-z]{2,}" title="Enter your full name"
+                            placeholder="Enter your full name" class="order-input" id="order-name" required>
+                    </label>
+                </div>
+                <div class="modal-field">
+                    <label for="order-email" class="order-label">
+                        <input type="email" name="order-email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                            title="Enter your email" placeholder="Enter your email" class="order-input" id="order-email"
+                            required>
+                    </label>
+                </div>
+                <div class="modal-comment">
+                    <textarea name="user-comment" id="user-comment" class="modal-textarea"
+                        placeholder="Comments"></textarea>
+                </div>
+                <div class="order-btn">
+                    <button class="order-form-btn" type="submit">SEND<svg class="order-btn-icon" width="26" height="10">
+                            <use href="../images/icons.svg#icon-button-pointer"></use>
+                        </svg></button>
+                </div>
+            </form>
+        </div>
+
+        <div class="order-girl-white">
+            <picture class="order-img">
+                <source srcset="../images/desctop/desctop-order-girl.jpg 1x, ../images/desctop/desctop-order-girl@2x.jpg 2x"
+                    media="(min-width: 1110px)">
+                <source srcset="../images/tablet/tablet-order-girl.jpg, ../images/tablet/tablet-order-girl@2x.jpg"
+                    media="(min-width: 768px)">
+                <img class="order-img" src="../images/desctop/desctop-order-girl.jpg" alt="girl-white" width="524" height="521">
+            </picture>
+        </div>
+    </div>
+</section>
       <section id="testimonials">
   <div class="container cont-flex">
   <h2 class="rewiev-title">Testimonials</h2>
