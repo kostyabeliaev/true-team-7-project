@@ -12,6 +12,7 @@
   .photo-container {
     display: flex;
     margin-top: -24px;
+    margin-bottom: 14px;
     border-radius: 64px;
     box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
   }
@@ -28,7 +29,6 @@
 
   .rewiev-list-item {
     display: flex;
-    margin-top: 24px;
     margin-left: 0;
     margin-right: 0;
     padding-right: 18px;
@@ -39,6 +39,7 @@
     border-radius: 4px;
     border: 1px solid rgba(252, 249, 249, 0.1);
   }
+
   .first-list-item {
     display: flex;
   }
@@ -49,7 +50,6 @@
   }
 
   .item-title {
-    margin-top: 20px;
     margin-bottom: 8px;
     text-align: center;
     font-size: 20px;
@@ -85,11 +85,13 @@
     padding-left: 32px;
     padding-bottom: 100px;
   }
+
   .photo-container {
     display: flex;
-    margin-top: -24px;
     border-radius: 64px;
     box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
+    margin-bottom: 24px;
+
   }
 
   .rewiev-title {
@@ -111,6 +113,7 @@
   .rewiev-list-item {
     width: calc((100% - 32px) / 2);
   }
+
   .rewiev {
     width: 300px;
     height: 214px;
@@ -123,6 +126,7 @@
     line-height: normal;
   }
 }
+
 /**************DESCTOP STYLES**************/
 
 @media screen and (min-width: 1280px) {
@@ -149,10 +153,12 @@
     width: 307px;
     height: 213px;
   }
+
   .desctop-text {
     min-height: 154px;
   }
- .opinion-text {
-  min-height: 175px;
- }
+
+  .opinion-text {
+    min-height: 175px;
+  }
 }

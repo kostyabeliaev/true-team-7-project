@@ -75,21 +75,16 @@
 }
 
 /*=========/BURGER==========*/
-/* @media screen and (min-width: 320px) and (max-width: 374px) {
-  .container-style {
-    min-width: 320px;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin: 0 auto;
-  }
-} */
+
 /* ===============  MOBILE STYLES=============== */
 @media screen and (min-width: 375px) {
   .container-style {
     width: 375px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .contact-header-menu {
@@ -120,10 +115,10 @@
 
 .mobile-menu-container {
   position: relative;
-  padding: 20px 20px 20px;
+  padding: 32px 20px 20px;
   width: 274px;
   height: 100%;
-  margin: 0 auto;
+  margin-left: auto;
   background: #ECD979;
   background-image: url(../images/mobile/ornaments/mobile-menu-ornament.png);
   background-size: 274px 251px;
@@ -139,14 +134,18 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
   }
 }
 
-.mob-nav-list {
+.mob-nav {
+
   margin-top: 187px;
+}
+
+.mob-nav-list {
   text-align: right;
 }
 
 .menu-close-btn {
   position: absolute;
-  top: 20px;
+  top: 21px;
   right: 20px;
   width: 36px;
   height: 36px;
@@ -178,11 +177,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
   line-height: 1.28;
   text-transform: uppercase;
   color: #1C2225;
-}
-
-
-.mob-contacts {
-  margin-top: 12px;
 }
 
 .mob-contacts-link {
@@ -240,8 +234,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
     }
   }
 
-  .mob-nav-list {
+  .mob-nav {
     margin-top: 227px;
+  }
+
+  .mob-nav-list {
     text-align: right;
   }
 
