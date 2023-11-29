@@ -2,14 +2,14 @@
 .collection-container {
     width: 100%;
     max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 34px;
-    padding-bottom: 80px;
     margin: 0 auto;
 }
 
 .collection-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 34px;
+    padding-bottom: 80px;
     background-image: url(../images/mobile/ornaments/mobile-collection-ornament.png);
     background-repeat: no-repeat;
     background-position: left 316px;
@@ -39,6 +39,7 @@ screen and (min-device-pixel-ratio: 2) {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
     width: 100%;
 }
@@ -116,13 +117,13 @@ screen and (min-device-pixel-ratio: 2) {
 
         .collection-section {
             background-image: url(../images/tablet/ornaments/tablet-collection-ornament@2x.png);
+            padding-top: 50px;
+            padding-bottom: 100px;
         }
     }
 
     .collection-container {
         max-width: 768px;
-        padding-top: 50px;
-        padding-bottom: 100px;
     }
 
     .collection-list {
@@ -173,13 +174,14 @@ screen and (min-device-pixel-ratio: 2) {
 
         .collection-section {
             background-image: url(../images/desctop/ornaments/desctop-collection-ornament@2x.png);
+            padding-top: 70px;
+            padding-bottom: 150px;
         }
     }
 
     .collection-container {
         max-width: 1280px;
-        padding-top: 70px;
-        padding-bottom: 150px;
+
     }
 
     .collection-list-item {
