@@ -6,15 +6,16 @@
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 80px;
   }
-  
+
   .photo-container {
     display: flex;
     margin-top: -24px;
     border-radius: 64px;
     box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
   }
-  
+
   .rewiev-title {
     text-align: left;
     margin-bottom: 40px;
@@ -41,14 +42,12 @@
   .first-list-item {
     display: flex;
   }
-  
+
   .second-list-item,
   .third-list-item {
     display: none;
   }
-  
-  
-  
+
   .item-title {
     margin-top: 20px;
     margin-bottom: 8px;
@@ -58,14 +57,14 @@
     line-height: 1.5;
     color: #fcf9f9;
   }
-  
+
   .rewiev {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 291px;
   }
-  
+
   .opinion-text {
     text-align: center;
     font-size: 14px;
@@ -73,75 +72,76 @@
     line-height: normal;
     color: rgba(252, 249, 249, 0.4);
   }
-  }
+}
 
-  /************TABLET STYLES************/
-  
-  @media screen and (min-width: 768px) {
-     .testimonials-container {
-   max-width: 768px;
-   padding-right: 32px;
-   padding-left: 32px;
+/************TABLET STYLES************/
 
+@media screen and (min-width: 768px) {
+  .testimonials-container {
+    max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 100px;
   }
   .photo-container {
     display: flex;
-margin-top: -24px;
-border-radius: 64px;
-box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
+    margin-top: -24px;
+    border-radius: 64px;
+    box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
   }
-  
+
   .rewiev-title {
     font-size: 44px;
     font-weight: 500;
     line-height: 1.45;
   }
-  
+
   .second-list-item {
     display: flex;
   }
-  
+
   .rewiev-list {
     display: flex;
     flex-direction: row;
     gap: 32px;
   }
-  
+
   .rewiev-list-item {
     width: calc((100% - 32px) / 2);
   }
   .rewiev {
     width: 300px;
   }
-  
+
   .opinion-text {
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
   }
+}
+/**************DESCTOP STYLES**************/
+
+@media screen and (min-width: 1280px) {
+  .testimonials-container {
+    max-width: 1280px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 150px;
   }
-  /**************DESCTOP STYLES**************/
-  
-  @media screen and (min-width: 1280px) {
-    .testimonials-container {
-      max-width: 1280px;
-      padding-right: 100px;
-      padding-left: 100px;
-     }
-  
+
   .third-list-item {
     display: flex;
   }
-  
+
   .rewiev-list {
     gap: 26px;
   }
-  
+
   .rewiev-list-item {
     width: calc((100% - 52px) / 3);
   }
-  
+
   .rewiev {
     width: 307px;
   }
-  }
+}
