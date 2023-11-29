@@ -151,6 +151,10 @@ screen and (min-device-pixel-ratio: 2) {
         font-size: 18px;
         line-height: 1;
         letter-spacing: 0.05em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 345px;
     }
 
     .collection-item-cost {
