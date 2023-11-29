@@ -10,12 +10,12 @@
 /* ============== MOBILE STYLES ============== */
 
 @media screen and (max-width: 767px) {
+
     .page-footer {
         background-image: url(../images/mobile/ornaments/mobile-footer-ornament.png);
         background-repeat: no-repeat;
         background-position: center bottom;
         background-size: 375px 212px;
-
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -26,14 +26,15 @@
         }
     }
 
+    .page-footer.footer-section {
+        border-top: 1px solid rgba(252, 249, 249, 0.10);
+        justify-content: space-between;
+        align-items: center;
+    }
 
     .footer-container {
         max-width: 767px;
         padding-bottom: 292px;
-    }
-
-    .footer-section {
-        padding: 40px 20px;
     }
 
     .footer-menu {
@@ -42,6 +43,7 @@
         flex-wrap: wrap;
         gap: 25px;
         padding-bottom: 40px;
+        padding: 40px 20px;
     }
 
     .footer-menu-item {
@@ -65,7 +67,7 @@
 
    .footer-slogan {
         height: 216px;
-        padding-right: 20px;
+        padding-left: 20px;
         font-size: 44px;
         font-weight: 400;
         letter-spacing: -0.03em;
@@ -100,9 +102,10 @@
         }
     }
 
-    .footer-section {
-        padding-top: 40px;
-        padding-left: 32px;
+    .page-footer.footer-section {
+        border-top: 1px solid rgba(252, 249, 249, 0.10);
+        justify-content: space-between;
+        align-items: center;
     }
 
     .footer-container {
@@ -118,6 +121,8 @@
         margin: 0 auto;
         gap: 25px;
         margin-bottom: 80px;
+        padding-top: 40px;
+        padding-left: 32px;
     }
 
     .footer-menu-item-link {
@@ -144,6 +149,7 @@
         color: #FCF9F9;
         padding-bottom: 40px;
         padding-right: 215px;
+        padding-left: 32px;
     }
 
     .footer-span-ukrainian {
@@ -168,6 +174,12 @@
     .page-footer {
         background-image: url(../images/desctop/ornaments/desctop-footer-ornament@2x.png);
     }
+    }
+
+    .page-footer.footer-section {
+        border-top: 1px solid rgba(252, 249, 249, 0.10);
+        justify-content: space-between;
+        align-items: center;
     }
 
     .container {
