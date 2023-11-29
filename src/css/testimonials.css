@@ -63,9 +63,11 @@
     flex-direction: column;
     align-items: center;
     width: 291px;
+    height: 171px;
   }
 
   .opinion-text {
+    min-height: 133px;
     text-align: center;
     font-size: 14px;
     font-weight: 400;
@@ -111,9 +113,11 @@
   }
   .rewiev {
     width: 300px;
+    height: 214px;
   }
 
   .opinion-text {
+    min-height: 176px;
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
@@ -143,5 +147,12 @@
 
   .rewiev {
     width: 307px;
+    height: 213px;
   }
+  .desctop-text {
+    min-height: 154px;
+  }
+ .opinion-text {
+  min-height: 175px;
+ }
 }
