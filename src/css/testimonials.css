@@ -1,14 +1,15 @@
-@media (min-width: 320px) and (max-width: 375px) {
-  .container {
+@media screen and (min-width: 320px) {
+  .testimonials-container {
+    width: 100%;
     max-width: 375px;
-  }
-  
-  .cont-flex {
-    display: flex;
-    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .photo-container {
+    display: flex;
     margin-top: -24px;
     border-radius: 64px;
     box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
@@ -17,23 +18,13 @@
   .rewiev-title {
     text-align: left;
     margin-bottom: 40px;
-    font-family: Manrope;
     font-size: 32px;
     font-weight: 500;
     line-height: 1.38;
     letter-spacing: -0.03em;
     color: #fcf9f9;
   }
-  
-  .first-list-item {
-    display: flex;
-  }
-  
-  .second-list-item,
-  .third-list-item {
-    display: none;
-  }
-  
+
   .rewiev-list-item {
     display: flex;
     margin-top: 24px;
@@ -47,6 +38,16 @@
     border-radius: 4px;
     border: 1px solid rgba(252, 249, 249, 0.1);
   }
+  .first-list-item {
+    display: flex;
+  }
+  
+  .second-list-item,
+  .third-list-item {
+    display: none;
+  }
+  
+  
   
   .item-title {
     margin-top: 20px;
@@ -73,14 +74,22 @@
     color: rgba(252, 249, 249, 0.4);
   }
   }
+
   /************TABLET STYLES************/
   
   @media screen and (min-width: 768px) {
-    .container {
-      max-width: 768px;
-      padding-left: 32px;
-      padding-right: 32px;
-    }
+     .testimonials-container {
+   max-width: 768px;
+   padding-right: 32px;
+   padding-left: 32px;
+
+  }
+  .photo-container {
+    display: flex;
+margin-top: -24px;
+border-radius: 64px;
+box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
+  }
   
   .rewiev-title {
     font-size: 44px;
@@ -114,11 +123,11 @@
   /**************DESCTOP STYLES**************/
   
   @media screen and (min-width: 1280px) {
-    .container {
+    .testimonials-container {
       max-width: 1280px;
-      padding-left: 100px;
       padding-right: 100px;
-    }
+      padding-left: 100px;
+     }
   
   .third-list-item {
     display: flex;
