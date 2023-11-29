@@ -5,6 +5,7 @@
 .page-footer {
     background-color: #1C2225;
     width: 100%;
+    border-top: 1px solid rgba(252, 249, 249, 0.10);
 }
 
 /* ============== MOBILE STYLES ============== */
@@ -41,42 +42,41 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 25px;
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
 
     .footer-menu-item {
         width: calc((100% - 25px) / 2);
     }
 
-   .footer-menu-item-link {
+    .footer-menu-item-link {
         font-style: normal;
         font-size: 14px;
-        line-height: 1.28; 
+        line-height: 1.28;
         font-weight: 400;
         text-transform: uppercase;
         color: #FCF9F9;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   }
+    }
 
-   .footer-menu-item-link:hover,
-   .footer-menu-item-link:focus {
-    color: #ECD979;
-   }
+    .footer-menu-item-link:hover,
+    .footer-menu-item-link:focus {
+        color: #ECD979;
+    }
 
-   .footer-slogan {
+    .footer-slogan {
         height: 216px;
-        padding-right: 20px;
         font-size: 44px;
         font-weight: 400;
         letter-spacing: -0.03em;
-        line-height: 1.22; 
+        line-height: 1.22;
         color: #FCF9F9;
-   }
+    }
 
-   .footer-span-ukrainian {
-    color: #ECD979;
-   }
-    
+    .footer-span-ukrainian {
+        color: #ECD979;
+    }
+
 }
 
 /* ============== TABLET STYLES ============== */
@@ -87,6 +87,7 @@
         background-repeat: no-repeat;
         background-position: right;
         background-size: 174px 370px;
+        max-width: 768px;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -94,19 +95,16 @@
     (min-resolution: 2dppx) {
         .page-footer {
             background-image: url(../images/tablet/ornaments/tablet-footer-ornament@2x.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 174px 370px;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 174px 370px;
         }
     }
 
     .footer-section {
         padding-top: 40px;
         padding-left: 32px;
-    }
-
-    .footer-container {
-        width: 768px;
+        padding-right: 32px;
     }
 
     .footer-menu {
@@ -117,38 +115,38 @@
         align-items: center;
         margin: 0 auto;
         gap: 25px;
-        margin-bottom: 80px;
+        margin-bottom: 90px;
     }
 
     .footer-menu-item-link {
         font-style: normal;
         font-size: 14px;
-        line-height: 1.28; 
+        line-height: 1.28;
         font-weight: 400;
         text-transform: uppercase;
         color: #FCF9F9;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   }
+    }
 
-   .footer-menu-item-link:hover,
-   .footer-menu-item-link:focus {
-    color: #ECD979;
-   }
+    .footer-menu-item-link:hover,
+    .footer-menu-item-link:focus {
+        color: #ECD979;
+    }
 
-   .footer-slogan {
+    .footer-slogan {
         height: 216px;
         font-size: 54px;
         font-weight: 400;
         letter-spacing: -0.03em;
-        line-height: 1.18; 
+        line-height: 1.18;
         color: #FCF9F9;
-        padding-bottom: 40px;
-        padding-right: 215px;
+        margin-right: auto;
+        width: 482px;
     }
 
     .footer-span-ukrainian {
         color: #ECD979;
-       }
+    }
 }
 
 
@@ -160,19 +158,20 @@
         background-repeat: no-repeat;
         background-position: right;
         background-size: 336px 363px;
+        padding-bottom: 40px;
+        padding-left: 100px;
+        padding-top: 40px;
     }
-    
+
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .page-footer {
-        background-image: url(../images/desctop/ornaments/desctop-footer-ornament@2x.png);
-    }
+        .page-footer {
+            background-image: url(../images/desctop/ornaments/desctop-footer-ornament@2x.png);
+        }
     }
 
-    .container {
-        width: 1280px;
-    }
+
 
     .footer-menu {
         display: flex;
@@ -182,42 +181,38 @@
         margin: 0 auto;
         gap: 25px;
         margin-bottom: 117px;
-        padding-top: 40px;
-        padding-left: 100px;
     }
 
     .footer-menu-item-link {
         font-style: normal;
         font-size: 14px;
-        line-height: 1.28; 
+        line-height: 1.28;
         font-weight: 400;
         text-transform: uppercase;
         color: #FCF9F9;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   }
+    }
 
-   .footer-menu-item-link:hover,
-   .footer-menu-item-link:focus {
-    color: #ECD979;
-   }
-   
-   .footer-slogan {
-        padding-bottom: 40px;
-        padding-left: 100px;
-        padding-right: 426px;
+    .footer-menu-item-link:hover,
+    .footer-menu-item-link:focus {
+        color: #ECD979;
+    }
+
+    .footer-slogan {
+        margin-right: auto;
         font-size: 64px;
         font-weight: 400;
         letter-spacing: -0.03em;
-        line-height: 1.15; 
+        line-height: 1.15;
         color: #FCF9F9;
-   }
+        width: 754px;
+    }
 
     .footer-span-ukrainian {
         color: #ECD979;
         font-size: 64px;
         font-weight: 400;
         letter-spacing: -0.03em;
-        line-height: 1.15; 
-       }
+        line-height: 1.15;
+    }
 }
-
