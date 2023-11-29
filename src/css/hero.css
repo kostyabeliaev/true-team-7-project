@@ -1,6 +1,5 @@
 .hero {
     padding-top: 60px;
-    padding-bottom: 80px;
 }
 
 .hero-container {
@@ -9,16 +8,17 @@
 }
 
 .hero-title {
-    color: var(--white, #FCF9F9);
+    color: #FCF9F9;
+    font-weight: 400;
     font-size: 44px;
-    line-height: 1.23;
+    line-height: 1.22;
     letter-spacing: -0.03em;
     max-width: 335px;
     margin-bottom: 40px;
 }
 
 .hero-span-ukrainian {
-    color: var(--white, #ECD979);
+    color: #ECD979;
     line-height: 54px;
     letter-spacing: -0.03em;
 }
@@ -28,7 +28,7 @@
 }
 
 .hero-btn {
-    color: var(--white, #FCF9F9);
+    color: #FCF9F9;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
@@ -44,18 +44,17 @@
     flex-shrink: 0;
     padding: 14px 36px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 40px;
-    margin-left: 70px;
+    margin-left: 90px;
     max-width: 155px;
 }
 
 .hero-btn:hover,
 .hero-btnn:focus {
-    border-color: var(--yellow, #ECD979);
+    border-color: #ECD979;
 }
 
 .hero-icon-btn {
-    fill: var(--yellow, #ECD979);
+    fill: #ECD979;
 }
 
 .hero-img {
@@ -64,6 +63,10 @@
 
 .hero-img-ukraine {
     display: none;
+}
+
+.hero-picture {
+    margin-top: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -81,10 +84,13 @@
         position: relative;
     }
 
+    .hero-picture {
+        margin-top: 40px;
+    }
+
     .hero-title {
         font-size: 54px;
-        line-height: 1.19;
-        letter-spacing: -0.03em;
+        line-height: 1.18;
         max-width: 549px;
     }
 
@@ -100,7 +106,7 @@
     }
 
     .hero-handmade-svg {
-        fill: var(--yellow, #ECD979);
+        fill: #ECD979;
     }
 
     .hero-handmade-text {
@@ -124,7 +130,7 @@
         flex-shrink: 0;
         padding: 14px 39px;
         max-width: 168px;
-        margin-left: 141px;
+        margin-left: 173px;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -137,9 +143,9 @@
     }
 }
 
-@media screen and (min-width: 1110px) {
+@media screen and (min-width: 1280px) {
     .container {
-        max-width: 1110px;
+        max-width: 1280px;
     }
 
     .hero {
@@ -149,7 +155,8 @@
 
     .hero-container {
         display: flex;
-        flex-wrap: nowrap;
+        flex-direction: row;
+        flex-wrap: wrap;
         flex-direction: row-reverse;
         justify-content: flex-end;
     }
@@ -160,17 +167,22 @@
         margin-left: 40px;
     }
 
+    .hero-picture {
+        margin-top: 0;
+    }
+
     .hero-title {
-        width: 518px;
+        max-width: 500px;
+
     }
 
     .hero-handmade {
         top: 0;
-        right: 15px;
+        right: 131px;
     }
 
     .hero-img-ukraine {
-        right: 15px;
+        right: 97px;
     }
 
     .hero-img {

@@ -1,4 +1,6 @@
-*, :after, :before {
+*,
+:after,
+:before {
     box-sizing: border-box;
 }
 
@@ -6,8 +8,6 @@
 .about-container {
     width: 100%;
     max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
     margin: 0 auto;
 }
 
@@ -17,7 +17,7 @@
     }
 }
 
-@media screen  and (min-width:1280px) {
+@media screen and (min-width:1280px) {
     .about-container {
         max-width: 1120px;
         display: flex;
@@ -27,12 +27,14 @@
 }
 
 .about-section {
-    background-color:  #1C2225;
-    padding: 80px 0 62px 0;
+    background-color: #1C2225;
+    padding: 0 0 62px 0;
     background-image: url(/images/mobile/ornaments/mobile-about-us-ornament.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 260px 408px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -46,8 +48,10 @@
 @media screen and (min-width:768px) {
     .about-section {
         background-image: url(/images/tablet/ornaments/tablet-about-us-ornament.png);
-        padding: 100px 0 50px 0;
+        padding: 0 0 50px 0;
         background-size: 380px 484px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -64,7 +68,7 @@
     .about-section {
         background-image: url(/images/desctop/ornaments/desctop-about-us-ornament.png);
         background-size: 390px 484px;
-        padding: 150px 0 80px 0;
+        padding: 0 100px 80px 100px;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -74,7 +78,7 @@
             background-image: url(/images/desctop/ornaments/desctop-about-us-ornament@2x.png);
         }
     }
-    
+
 }
 
 
@@ -82,18 +86,18 @@
     color: #FCF9F9;
     font-size: 32px;
     font-weight: 500;
-    line-height: 1.37; 
+    line-height: 1.37;
     letter-spacing: -0.03em;
     margin-bottom: 40px;
 }
 
-@media screen  and (min-width:768px) {
+@media screen and (min-width:768px) {
     .about-title {
-    font-size: 44px;
-    line-height: 1.45;
-    letter-spacing: -0.03em;
+        font-size: 44px;
+        line-height: 1.45;
+        letter-spacing: -0.03em;
     }
-    
+
 }
 
 .about-text {
@@ -101,20 +105,20 @@
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.04em;
-    width: 100%;
+    max-width: 335px;
 }
 
 @media screen and (min-width:768px) {
     .about-text {
         font-size: 16px;
         letter-spacing: -0.04em;
-        width: 704px;
+        max-width: 704px;
     }
 }
 
 @media screen and (min-width:1280px) {
     .about-text {
-        width: 436px;
+        max-width: 436px;
     }
 }
 
@@ -123,7 +127,7 @@
 }
 
 
-@media screen and (max-width:1279px) {   
+@media screen and (max-width:1279px) {
     .about-img {
         margin-top: 50px;
     }
