@@ -68,6 +68,8 @@
 .hero-btn:hover,
 .hero-btnn:focus {
     border-color: #ECD979;
+    outline: transparent;
+    outline-offset: 4px;
 }
 
 .hero-icon-btn {

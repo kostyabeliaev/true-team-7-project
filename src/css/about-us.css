@@ -128,7 +128,8 @@
 
 
 @media screen and (max-width:1279px) {
-    .about-img {
-        margin-top: 50px;
+
+    .about-box {
+        margin-bottom: 50px;
     }
 }

@@ -94,12 +94,38 @@ screen and (min-device-pixel-ratio: 2) {
 
 }
 
-.collection-item-title {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    max-width: 345px;
+@media screen and (min-width: 320px) {
+
+    .collection-item-title {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 280px;
+    }
+
+    .collection-list-item {
+        width: 280px;
+    }
+
+
 }
+
+@media screen and (min-width: 375px) {
+
+    .collection-item-title {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 345px;
+    }
+
+    .collection-list-item {
+        width: 335px;
+    }
+
+
+}
+
 
 .collection-list-item:hover .collection-overlay {
     transform: translateY(0%);
