@@ -1,9 +1,10 @@
 @media screen and (min-width: 320px) {
-  .testimonials-section { 
+  .testimonials-section {
     padding-bottom: 80px;
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .testimonials-container {
     width: 100%;
     max-width: 375px;
@@ -68,7 +69,7 @@
   }
 
   .opinion-text {
-    width: 285px;
+    width: 242px;
     text-align: center;
     font-size: 14px;
     font-weight: 400;
@@ -76,6 +77,14 @@
     color: rgba(252, 249, 249, 0.4);
   }
 }
+
+@media screen and (min-width: 375px) {
+  .opinion-text {
+
+    width: 285px;
+  }
+}
+
 
 /************TABLET STYLES************/
 
@@ -85,6 +94,7 @@
     padding-left: 32px;
     padding-right: 32px;
   }
+
   .testimonials-container {
     max-width: 768px;
   }
@@ -133,6 +143,7 @@
     padding-left: 100px;
     padding-right: 100px;
   }
+
   .testimonials-container {
     max-width: 1280px;
   }

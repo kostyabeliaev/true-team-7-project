@@ -55,7 +55,6 @@
     display: flex;
     padding: 14px 16px;
     resize: none;
-    margin-bottom: 40px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -69,7 +68,6 @@
     font-weight: 500;
     line-height: 1.38;
     letter-spacing: -0.03em;
-    min-width: 335px;
 }
 
 .order-input {
@@ -115,7 +113,9 @@
 
 .order-form-btn:hover,
 .order-form-btn:focus {
-    border: 1px solid var(--yellow, #ECD979);
+    border: 1px solid #ECD979;
+    outline: transparent;
+    outline-offset: 4px;
 }
 
 .order-btn-icon {
@@ -202,7 +202,7 @@
 
     .order-img {
         margin-left: auto;
-        width: 638px;
+        width: 704px;
     }
 
     .order-btn {

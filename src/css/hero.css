@@ -29,16 +29,18 @@
 
 /*----крутилка--*/
 @keyframes rotateStar {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .hero-handmade-svg {
-  animation: rotateStar 2s linear infinite; /* 2s - время одного оборота, linear - линейная анимация, infinite - бесконечное повторение */
+    animation: rotateStar 2s linear infinite;
+    /* 2s - время одного оборота, linear - линейная анимация, infinite - бесконечное повторение */
 }
 
 
@@ -66,6 +68,8 @@
 .hero-btn:hover,
 .hero-btnn:focus {
     border-color: #ECD979;
+    outline: transparent;
+    outline-offset: 4px;
 }
 
 .hero-icon-btn {
