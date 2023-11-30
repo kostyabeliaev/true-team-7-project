@@ -27,6 +27,21 @@
     display: none;
 }
 
+/*----крутилка--*/
+@keyframes rotateStar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hero-handmade-svg {
+  animation: rotateStar 2s linear infinite; /* 2s - время одного оборота, linear - линейная анимация, infinite - бесконечное повторение */
+}
+
+
 .hero-btn {
     color: #FCF9F9;
     font-size: 14px;
