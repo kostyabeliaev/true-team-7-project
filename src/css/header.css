@@ -250,6 +250,7 @@
 
   .logo {
     margin-right: 60px;
+    outline: transparent;
   }
 
   .menu-header-item {
@@ -269,6 +270,7 @@
   .menu-link:focus {
     color: #ecd979;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: transparent;
   }
 
   .contacts-link {
@@ -286,12 +288,14 @@
   .contacts-link:focus {
     border-radius: 15px;
     border: 1px solid #ecd979;
+    outline: transparent;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .social-icon:hover,
   .social-icon:focus {
     border-radius: 15px;
     border: 1px solid #ecd979;
+    outline: transparent;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
