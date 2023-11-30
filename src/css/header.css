@@ -32,8 +32,8 @@
 }
 
 .social-icon {
-width: 44px;
-height: 44px;
+  width: 44px;
+  height: 44px;
 }
 
 .social-icon-item {
@@ -123,8 +123,8 @@ height: 44px;
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 320px),
-  screen and (min-resolution: 2dppi) and (min-width: 320px),
-  screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
+screen and (min-resolution: 2dppi) and (min-width: 320px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
   .mobile-menu-container {
     background-image: url(../images/mobile/ornaments/mobile-menu-ornament@2x.png);
   }
@@ -216,8 +216,8 @@ height: 44px;
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 768px),
-    screen and (min-resolution: 2dppi) and (min-width: 768px),
-    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  screen and (min-resolution: 2dppi) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .mobile-menu-container {
       background-image: url(../images/tablet/ornaments/tablet-menu-ornament@2x.png);
     }
@@ -238,6 +238,7 @@ height: 44px;
     padding-left: 100px;
     padding-right: 100px;
   }
+
   .burger-btn {
     display: none;
   }
@@ -249,6 +250,7 @@ height: 44px;
   .menu-contact {
     margin: 0;
   }
+
   .contact-header-menu {
     gap: 20px;
   }
@@ -300,10 +302,11 @@ height: 44px;
 
   .contacts-link:hover,
   .contacts-link:focus {
-  border-color: #ecd979;
-  outline: transparent;
-  outline-offset: 4px;
+    border-color: #ecd979;
+    outline: transparent;
+    outline-offset: 4px;
   }
+
   .social-icon:hover,
   .social-icon:focus {
     border-radius: 15px;

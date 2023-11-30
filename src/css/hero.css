@@ -29,16 +29,18 @@
 
 /*----крутилка--*/
 @keyframes rotateStar {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .hero-handmade-svg {
-  animation: rotateStar 2s linear infinite; /* 2s - время одного оборота, linear - линейная анимация, infinite - бесконечное повторение */
+    animation: rotateStar 2s linear infinite;
+    /* 2s - время одного оборота, linear - линейная анимация, infinite - бесконечное повторение */
 }
 
 
@@ -166,6 +168,8 @@
     .hero {
         padding-top: 100px;
         padding-bottom: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
     .hero-container {
@@ -193,12 +197,8 @@
 
     .hero-handmade {
         top: 0;
-        right: 131px;
     }
 
-    .hero-img-ukraine {
-        right: 97px;
-    }
 
     .hero-img {
         width: 100%;
