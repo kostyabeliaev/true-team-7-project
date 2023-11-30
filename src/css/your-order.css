@@ -6,10 +6,10 @@
     height: 550px;
     margin: 0 auto;
     background-color: #1c2225;
+    margin-bottom: 80px
 }
 
 .order-mod {
-    padding-top: 80px;
     padding-bottom: 81px;
     background-color: #1c2225;
     padding-left: 20px;
@@ -148,6 +148,7 @@
         background-size: 768px 776px;
         height: 776px;
         background-color: #1c2225;
+        margin-bottom: 100px;
     }
 
     .order-mod {
@@ -155,7 +156,6 @@
         background-position: left 91%;
         background-repeat: no-repeat;
         background-size: 300px 490px;
-        padding-top: 100px;
         padding-bottom: 180px;
         padding-left: 32px;
         padding-right: 32px;
@@ -220,7 +220,7 @@ screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
 
 /*------------------Desktop---------------*/
 
-@media screen and (min-width: 1110px) {
+@media screen and (min-width: 1280px) {
     .pre-order {
         background-image: url(../images/desctop/desctop-girl-green.jpg);
         background-repeat: no-repeat;
@@ -228,6 +228,7 @@ screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         background-size: 1280px 776px;
         max-width: 1440px;
         background-color: #1c2225;
+        margin-bottom: 100px;
     }
 
     .order {
@@ -243,7 +244,6 @@ screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     .order-mod {
         background-image: url(../images/desctop/ornaments/desctop-order-ornament.png);
         background-position-y: 300px;
-        padding-top: 150px;
         padding-bottom: 150px;
         padding-left: 100px;
         padding-right: 100px;
