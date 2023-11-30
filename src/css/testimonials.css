@@ -1,12 +1,14 @@
 @media screen and (min-width: 320px) {
+  .testimonials-section { 
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .testimonials-container {
     width: 100%;
     max-width: 375px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 80px;
   }
 
   .photo-container {
@@ -78,11 +80,13 @@
 /************TABLET STYLES************/
 
 @media screen and (min-width: 768px) {
+  .testimonials-section {
+    padding-bottom: 100px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
   .testimonials-container {
     max-width: 768px;
-    padding-right: 32px;
-    padding-left: 32px;
-    padding-bottom: 100px;
   }
 
   .photo-container {
@@ -124,11 +128,13 @@
 /**************DESCTOP STYLES**************/
 
 @media screen and (min-width: 1280px) {
+  .testimonials-section {
+    padding-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
   .testimonials-container {
     max-width: 1280px;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-bottom: 150px;
   }
 
   .third-list-item {
